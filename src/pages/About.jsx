@@ -1,8 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 function About() {
   return (
-    <div>About</div>
+    <>
+      <div className="bg-green-400 h-svh flex justify-center ">
+        <div className="text-9xl text-white font-bold mt-50">
+          <Link to="#">About</Link>
+        </div>
+      </div>
+    </>
   )
 }
 

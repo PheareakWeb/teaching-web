@@ -5,7 +5,9 @@ function Home() {
   return (
     <>
       <div className="bg-green-400 h-svh flex justify-center ">
-        <div className="text-9xl text-white font-bold mt-50">Web Developemnt</div>
+        <div className="text-9xl text-white font-bold mt-50">
+          <Link to="dashboard">Web Developemnt</Link>
+        </div>
       </div>
     </>
   );

@@ -5,9 +5,8 @@ function RootLayout() {
     return (
         <>
             <div>
-                <Link to="/dashboard">Dashboard</Link> |
                 <Link to="/classes">Classes</Link> |
-                <Link to="/students">Students</Link>{" "}
+                <Link to="/students">Students</Link> |
                 <Link to="/about">About</Link>
             </div>
 
