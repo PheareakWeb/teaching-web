@@ -8,6 +8,6 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  base:'/teaching-web/',
+  base:'/',
   
 })
